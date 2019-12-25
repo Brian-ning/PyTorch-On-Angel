@@ -42,5 +42,5 @@ class GCN2(torch.jit.ScriptModule):
         return self.training
 
 if __name__ == '__main__':
-    gcn = GCN2(1433, 16. 7) # cora dataset
+    gcn = GCN2(1433, 16, 7) # cora dataset
     gcn.save('gcn.pt')
